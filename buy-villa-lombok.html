@@ -160,6 +160,28 @@ nav {
   .article-container h2 { font-size: 1.5rem; }
   .blog-cta .btn-outline-dark { margin-left: 0; margin-top: 15px; }
 }
+
+/* Mobile overflow fix */
+*, *::before, *::after { box-sizing: border-box; }
+html { overflow-x: hidden; max-width: 100vw; }
+body { overflow-x: hidden; max-width: 100vw; width: 100%; }
+@media (max-width: 768px) {
+  .nav-links { display: none !important; }
+  .info-table, .comp-table, table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: calc(100vw - 40px); font-size: 0.8rem; }
+  .callout-box { padding: 15px 18px !important; margin-left: 0 !important; margin-right: 0 !important; word-break: break-word; }
+  .article-container { padding: 40px 16px 60px !important; }
+  .blog-hero { padding: 100px 16px 40px !important; }
+  .blog-cta { padding: 50px 16px !important; }
+  h1 { font-size: 1.6rem !important; }
+  h2 { font-size: 1.3rem !important; }
+  p, li { font-size: 0.92rem; }
+  .blog-cta .cta-buttons { flex-direction: column; align-items: center; }
+  .btn-primary, .btn-outline-dark { width: 100%; text-align: center; }
+  footer { padding: 30px 16px !important; }
+  .footer-links { flex-direction: column; gap: 10px; }
+}
+
+/* Mobile overflow fix inserted */
 </style>
 <link rel="stylesheet" href="sidebar.css">
 </head>
