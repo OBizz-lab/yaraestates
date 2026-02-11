@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
         '<a href="brochure.html" class="sidebar-link"><span class="link-icon">📖</span><div><div class="link-title">Investor Brochure</div><div class="link-desc">Vision, designs, location & financials</div></div></a>' +
         '<a href="factsheet.html" class="sidebar-link"><span class="link-icon">📋</span><div><div class="link-title">Fact Sheet</div><div class="link-desc">Pricing, specs, returns & payment structure</div></div></a>' +
       '</div>' +
-      '<div style="padding-top:15px;border-top:1px solid rgba(212,175,55,0.2);">' +
+      '<div style="padding-top:15px;border-top:1px solid rgba(212,175,55,0.2);display:flex;flex-direction:column;gap:10px;">' +
+        '<a href="/" class="sidebar-cta-btn" style="background:linear-gradient(135deg,#1a6b5a,#12503f);" id="sidebarHome">🏠 Back to Home</a>' +
         '<a href="index.html#reserve" class="sidebar-cta-btn" id="sidebarCta">Get Investor Guide →</a>' +
       '</div>' +
     '</div>';
