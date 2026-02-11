@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yara Estates Lombok — Own Paradise from $100K</title>
+<meta name="description" content="Pre-construction luxury villas in Lombok, Indonesia. 150sqm, 2-floor villas from $100K. The next Bali — invest now at ground floor pricing.">
+<meta property="og:title" content="Yara Estates Lombok — Own Paradise from $100K">
+<meta property="og:description" content="Pre-construction luxury villas in Lombok. Ground floor pricing before the boom.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#d4af37;--gold-light:#e8c84a;--navy:#0a1628;--navy-light:#1a3a5c;--ocean:#2e86ab;--ocean-light:#4da8c9;--sand:#f5e6c8;--white:#ffffff;--gray:#c8d6e5;--dark-gray:#8899aa}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:var(--white);background:var(--navy)}
+
+/* NAV */
+nav{position:fixed;top:0;width:100%;z-index:1000;padding:15px 0;transition:all 0.3s;background:rgba(10,22,40,0.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(212,175,55,0.15)}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--white)}
+.nav-logo img{width:45px;height:45px;border-radius:50%}
+.nav-logo span{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:600}
+.nav-cta{padding:10px 24px;background:linear-gradient(135deg,var(--gold),#b8962e);color:var(--navy);text-decoration:none;border-radius:50px;font-weight:600;font-size:0.85rem;letter-spacing:0.5px;transition:transform 0.3s,box-shadow 0.3s}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(212,175,55,0.4)}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 20px 80px;background:linear-gradient(180deg,rgba(10,22,40,0.85) 0%,rgba(26,58,92,0.7) 50%,rgba(10,22,40,0.9) 100%),linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 50%,var(--ocean) 100%);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 50% 30%,rgba(46,134,171,0.15) 0%,transparent 70%)}
+.hero-content{position:relative;max-width:800px}
+.hero-badge{display:inline-block;padding:8px 20px;border:1px solid var(--gold);border-radius:50px;font-size:0.8rem;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:30px;animation:fadeInDown 1s ease}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight:700;line-height:1.15;margin-bottom:20px;animation:fadeInUp 1s ease}
+.hero h1 .gold{color:var(--gold)}
+.hero-sub{font-size:clamp(1rem,2.5vw,1.3rem);color:var(--gray);line-height:1.7;margin-bottom:40px;font-weight:300;animation:fadeInUp 1s ease 0.2s both}
+.hero-btns{display:flex;gap:15px;justify-content:center;flex-wrap:wrap;animation:fadeInUp 1s ease 0.4s both}
+.btn-primary{padding:16px 36px;background:linear-gradient(135deg,var(--gold),#b8962e);color:var(--navy);text-decoration:none;border-radius:50px;font-weight:600;font-size:1rem;transition:all 0.3s;border:none;cursor:pointer}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(212,175,55,0.4)}
+.btn-outline{padding:16px 36px;background:transparent;color:var(--white);text-decoration:none;border-radius:50px;font-weight:500;font-size:1rem;border:1px solid rgba(255,255,255,0.3);transition:all 0.3s;cursor:pointer}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+.hero-stats{display:flex;gap:40px;justify-content:center;margin-top:60px;animation:fadeInUp 1s ease 0.6s both}
+.hero-stat{text-align:center}
+.hero-stat .num{font-family:'Playfair Display',serif;font-size:2rem;color:var(--gold);font-weight:700}
+.hero-stat .label{font-size:0.8rem;color:var(--dark-gray);margin-top:5px;text-transform:uppercase;letter-spacing:1px}
+
+/* SECTIONS */
+section{padding:100px 20px}
+.container{max-width:1100px;margin:0 auto}
+.section-label{display:inline-block;color:var(--gold);font-size:0.8rem;letter-spacing:3px;text-transform:uppercase;margin-bottom:15px;font-weight:600}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3rem);margin-bottom:20px;line-height:1.2}
+.section-sub{color:var(--gray);font-size:1.1rem;line-height:1.7;max-width:700px}
+
+/* OFFER */
+.offer{background:linear-gradient(180deg,var(--navy) 0%,rgba(26,58,92,0.3) 50%,var(--navy) 100%)}
+.offer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;margin-top:50px}
+.offer-card{background:rgba(255,255,255,0.03);border:1px solid rgba(212,175,55,0.15);border-radius:16px;padding:40px 30px;transition:all 0.3s;position:relative;overflow:hidden}
+.offer-card:hover{border-color:var(--gold);transform:translateY(-5px);box-shadow:0 20px 40px rgba(0,0,0,0.3)}
+.offer-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--ocean));opacity:0;transition:opacity 0.3s}
+.offer-card:hover::before{opacity:1}
+.offer-icon{font-size:2.5rem;margin-bottom:20px}
+.offer-card h3{font-family:'Playfair Display',serif;font-size:1.3rem;margin-bottom:12px}
+.offer-card p{color:var(--gray);line-height:1.7;font-size:0.95rem}
+
+/* WHY NOW */
+.why-now{background:var(--navy)}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;margin-top:50px}
+.why-card{padding:30px;border-radius:12px;background:linear-gradient(135deg,rgba(46,134,171,0.1),rgba(212,175,55,0.05));border:1px solid rgba(255,255,255,0.05)}
+.why-card h4{color:var(--gold);font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:10px}
+.why-card p{color:var(--gray);font-size:0.9rem;line-height:1.7}
+
+/* INVESTMENT */
+.investment{background:linear-gradient(180deg,var(--navy) 0%,rgba(26,58,92,0.2) 100%)}
+.inv-highlight{background:rgba(212,175,55,0.08);border:1px solid rgba(212,175,55,0.25);border-radius:20px;padding:50px 40px;margin-top:50px;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:40px;text-align:center}
+.inv-item .big{font-family:'Playfair Display',serif;font-size:2.2rem;color:var(--gold);font-weight:700}
+.inv-item .desc{color:var(--gray);font-size:0.9rem;margin-top:8px;line-height:1.5}
+
+/* VALUE STACK */
+.value-stack{background:var(--navy)}
+.stack-list{margin-top:50px;max-width:700px}
+.stack-item{display:flex;gap:20px;padding:25px 0;border-bottom:1px solid rgba(255,255,255,0.05)}
+.stack-item:last-child{border-bottom:none}
+.stack-check{color:var(--gold);font-size:1.5rem;flex-shrink:0;margin-top:2px}
+.stack-item h4{font-size:1.05rem;margin-bottom:5px}
+.stack-item p{color:var(--gray);font-size:0.9rem;line-height:1.6}
+.stack-total{margin-top:40px;padding:30px;background:linear-gradient(135deg,rgba(212,175,55,0.15),rgba(212,175,55,0.05));border:1px solid var(--gold);border-radius:12px}
+.stack-total h3{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--gold)}
+.stack-total p{color:var(--gray);margin-top:8px;font-size:0.95rem}
+
+/* FORM */
+.form-section{background:linear-gradient(180deg,var(--navy),rgba(26,58,92,0.4),var(--navy));position:relative}
+.form-wrapper{max-width:650px;margin:0 auto;margin-top:50px;background:rgba(255,255,255,0.03);border:1px solid rgba(212,175,55,0.2);border-radius:20px;padding:50px 40px}
+.form-wrapper h3{font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:8px;text-align:center}
+.form-wrapper .form-sub{color:var(--gray);text-align:center;margin-bottom:30px;font-size:0.95rem}
+.form-group{margin-bottom:20px}
+.form-group label{display:block;font-size:0.85rem;color:var(--gray);margin-bottom:6px;font-weight:500}
+.form-group input,.form-group select{width:100%;padding:14px 18px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:10px;color:var(--white);font-size:1rem;font-family:'Inter',sans-serif;transition:border-color 0.3s}
+.form-group input:focus,.form-group select:focus{outline:none;border-color:var(--gold)}
+.form-group select option{background:var(--navy);color:var(--white)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.form-submit{width:100%;padding:16px;background:linear-gradient(135deg,var(--gold),#b8962e);color:var(--navy);border:none;border-radius:50px;font-size:1.1rem;font-weight:700;cursor:pointer;margin-top:10px;transition:all 0.3s;font-family:'Inter',sans-serif}
+.form-submit:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(212,175,55,0.4)}
+.form-note{text-align:center;color:var(--dark-gray);font-size:0.8rem;margin-top:15px}
+
+/* FAQ */
+.faq{background:var(--navy)}
+.faq-list{margin-top:50px;max-width:750px}
+.faq-item{border-bottom:1px solid rgba(255,255,255,0.08);padding:25px 0}
+.faq-q{font-size:1.05rem;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.faq-q::after{content:'+';color:var(--gold);font-size:1.5rem;flex-shrink:0;transition:transform 0.3s}
+.faq-item.open .faq-q::after{transform:rotate(45deg)}
+.faq-a{color:var(--gray);line-height:1.7;font-size:0.95rem;max-height:0;overflow:hidden;transition:all 0.4s ease;padding-top:0}
+.faq-item.open .faq-a{max-height:300px;padding-top:15px}
+
+/* CTA BANNER */
+.cta-banner{background:linear-gradient(135deg,rgba(212,175,55,0.15),rgba(46,134,171,0.1));padding:80px 20px;text-align:center}
+.cta-banner h2{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.8rem);margin-bottom:15px}
+.cta-banner p{color:var(--gray);font-size:1.1rem;margin-bottom:30px}
+
+/* FOOTER */
+footer{background:rgba(0,0,0,0.3);padding:50px 20px 30px;text-align:center}
+.footer-links{display:flex;gap:30px;justify-content:center;margin-bottom:20px;flex-wrap:wrap}
+.footer-links a{color:var(--gray);text-decoration:none;font-size:0.9rem;transition:color 0.3s}
+.footer-links a:hover{color:var(--gold)}
+.footer-copy{color:var(--dark-gray);font-size:0.8rem}
+
+/* ANIMATIONS */
+@keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeInDown{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+.hero-stats{gap:25px}
+.hero-stat .num{font-size:1.5rem}
+.form-row{grid-template-columns:1fr}
+.form-wrapper{padding:35px 25px}
+.inv-highlight{padding:35px 25px}
+section{padding:70px 20px}
+}
+@media(max-width:480px){
+.hero-stats{flex-direction:column;gap:15px}
+.nav-logo span{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+<div class="nav-inner">
+<a href="#" class="nav-logo">
+<img src="logo.png" alt="YE">
+<span>Yara Estates</span>
+</a>
+<a href="#reserve" class="nav-cta">Reserve Your Villa →</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<div class="hero-content">
+<div class="hero-badge">🌴 Pre-Construction — Limited Allocation</div>
+<h1>Own Paradise in Lombok<br>from <span class="gold">$100K</span></h1>
+<p class="hero-sub">Luxury 2-floor villas in Indonesia's fastest-growing island. Get in at ground-floor pricing before Lombok becomes the next Bali.</p>
+<div class="hero-btns">
+<a href="#reserve" class="btn-primary">Reserve Your Villa →</a>
+<a href="#investment" class="btn-outline">See the Numbers</a>
+</div>
+<div class="hero-stats">
+<div class="hero-stat"><div class="num">$100K</div><div class="label">Starting Price</div></div>
+<div class="hero-stat"><div class="num">150m²</div><div class="label">Villa Size</div></div>
+<div class="hero-stat"><div class="num">15</div><div class="label">Villas Only</div></div>
+</div>
+</div>
+</section>
+
+<!-- THE OFFER -->
+<section class="offer" id="offer">
+<div class="container">
+<div class="section-label">The Opportunity</div>
+<h2 class="section-title">Your Own Luxury Villa in Paradise</h2>
+<p class="section-sub">150sqm, 2-floor villas built to international standards in Lombok's most desirable location. Turnkey investment or personal retreat — your choice.</p>
+<div class="offer-grid">
+<div class="offer-card">
+<div class="offer-icon">🏗️</div>
+<h3>Pre-Construction Pricing</h3>
+<p>Lock in today's prices before construction drives values up. Early investors get the best positions and the lowest entry point.</p>
+</div>
+<div class="offer-card">
+<div class="offer-icon">🏠</div>
+<h3>150sqm Luxury Villas</h3>
+<p>Two-floor designs with premium finishes, private pool options, and tropical architecture that blends modern comfort with island living.</p>
+</div>
+<div class="offer-card">
+<div class="offer-icon">📈</div>
+<h3>Massive Growth Trajectory</h3>
+<p>Lombok property values have surged as infrastructure and tourism boom. MotoGP at Mandalika is just the beginning.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- WHY NOW -->
+<section class="why-now">
+<div class="container">
+<div class="section-label">Why Now</div>
+<h2 class="section-title">The Window Is Closing</h2>
+<p class="section-sub">Every indicator points to Lombok following Bali's explosive growth trajectory. The question isn't <em>if</em> — it's whether you get in before or after prices double.</p>
+<div class="why-grid">
+<div class="why-card">
+<h4>🏁 MotoGP & Mandalika</h4>
+<p>The Mandalika Circuit put Lombok on the global map. International events drive tourism, infrastructure, and property demand.</p>
+</div>
+<div class="why-card">
+<h4>✈️ New International Airport</h4>
+<p>Lombok's airport now handles direct international flights, making the island accessible to global travellers and investors.</p>
+</div>
+<div class="why-card">
+<h4>💰 Ground Floor Pricing</h4>
+<p>While Bali villas start at $300K+, Lombok offers comparable quality at a fraction of the price. This gap won't last.</p>
+</div>
+<div class="why-card">
+<h4>🌊 "The Next Bali"</h4>
+<p>Featured in Forbes, Bloomberg, and CNN Travel as Southeast Asia's hottest emerging destination. Smart money is already moving.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- INVESTMENT NUMBERS -->
+<section class="investment" id="investment">
+<div class="container">
+<div class="section-label">Investment Highlights</div>
+<h2 class="section-title">The Numbers Speak for Themselves</h2>
+<p class="section-sub">A rare chance to own a premium asset in a high-growth market at pre-construction pricing.</p>
+<div class="inv-highlight">
+<div class="inv-item">
+<div class="big">$100K</div>
+<div class="desc">All-in build cost for a 150sqm luxury villa</div>
+</div>
+<div class="inv-item">
+<div class="big">12-18%</div>
+<div class="desc">Projected annual rental yield from short-term lets</div>
+</div>
+<div class="inv-item">
+<div class="big">2-3x</div>
+<div class="desc">Expected appreciation within 5 years</div>
+</div>
+<div class="inv-item">
+<div class="big">15</div>
+<div class="desc">Exclusive villas — limited allocation ensures scarcity</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- VALUE STACK -->
+<section class="value-stack">
+<div class="container">
+<div class="section-label">What You Get</div>
+<h2 class="section-title">Everything Included — Zero Guesswork</h2>
+<div class="stack-list">
+<div class="stack-item">
+<div class="stack-check">✓</div>
+<div><h4>Fully Built 150sqm Luxury Villa</h4><p>Two floors, premium materials, tropical-modern design built to international standards.</p></div>
+</div>
+<div class="stack-item">
+<div class="stack-check">✓</div>
+<div><h4>Land & Legal Setup</h4><p>Full legal support for foreign ownership structures. Everything handled for you.</p></div>
+</div>
+<div class="stack-item">
+<div class="stack-check">✓</div>
+<div><h4>Property Management (Optional)</h4><p>Turnkey rental management so you earn while you're away. List on Airbnb, Booking.com, and premium platforms.</p></div>
+</div>
+<div class="stack-item">
+<div class="stack-check">✓</div>
+<div><h4>Interior Design Package</h4><p>Fully furnished and styled for maximum rental appeal and personal enjoyment.</p></div>
+</div>
+<div class="stack-item">
+<div class="stack-check">✓</div>
+<div><h4>Dedicated Concierge</h4><p>Your point of contact from purchase through completion and beyond. White-glove service.</p></div>
+</div>
+</div>
+<div class="stack-total">
+<h3>Total Value: $180K+ — Your Price: $100K</h3>
+<p>Early investors save over $80K compared to post-construction market value. This pricing is only available during the pre-construction phase.</p>
+</div>
+</div>
+</section>
+
+<!-- LEAD CAPTURE FORM -->
+<section class="form-section" id="reserve">
+<div class="container" style="text-align:center">
+<div class="section-label">Get Started</div>
+<h2 class="section-title">Reserve Your Villa Today</h2>
+<p class="section-sub" style="margin:0 auto">No commitment required. Tell us about your interest and we'll send you the full Investor Guide with pricing, floor plans, and location details.</p>
+</div>
+<div class="form-wrapper">
+<h3>🌴 Get Your Free Investor Guide</h3>
+<p class="form-sub">Plus a personal consultation with our team</p>
+<form action="https://formsubmit.co/bafagihomar260@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="🌴 New Yara Estates Lead!">
+<input type="hidden" name="_next" value="guide.html">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="box">
+<div class="form-row">
+<div class="form-group">
+<label>Full Name *</label>
+<input type="text" name="name" placeholder="John Smith" required>
+</div>
+<div class="form-group">
+<label>Email *</label>
+<input type="email" name="email" placeholder="john@example.com" required>
+</div>
+</div>
+<div class="form-group">
+<label>Phone (with country code)</label>
+<input type="tel" name="phone" placeholder="+1 555 123 4567">
+</div>
+<div class="form-row">
+<div class="form-group">
+<label>I'm Interested In *</label>
+<select name="interest" required>
+<option value="" disabled selected>Select one…</option>
+<option value="Investment">Investment Property</option>
+<option value="Vacation Home">Vacation Home</option>
+<option value="Both">Both — Investment & Personal Use</option>
+</select>
+</div>
+<div class="form-group">
+<label>Budget Range</label>
+<select name="budget">
+<option value="" disabled selected>Select range…</option>
+<option value="$80K-$100K">$80K – $100K</option>
+<option value="$100K-$150K">$100K – $150K</option>
+<option value="$150K-$200K">$150K – $200K</option>
+<option value="$200K+">$200K+</option>
+</select>
+</div>
+</div>
+<button type="submit" class="form-submit">Get the Investor Guide →</button>
+<p class="form-note">🔒 Your information is 100% private. No spam, ever.</p>
+</form>
+</div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+<div class="container">
+<div class="section-label">Common Questions</div>
+<h2 class="section-title">Frequently Asked Questions</h2>
+<div class="faq-list">
+<div class="faq-item">
+<div class="faq-q">Can foreigners own property in Indonesia?</div>
+<div class="faq-a">Yes. Through established legal structures (Right to Use / PT PMA), foreign investors can securely own property in Indonesia. We handle all legal setup for you with trusted local attorneys.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">What's the construction timeline?</div>
+<div class="faq-a">Villas are completed within 12-18 months from deposit. You'll receive regular progress updates with photos and video throughout the build process.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">How does the rental income work?</div>
+<div class="faq-a">We offer optional property management that handles everything — listing, guest management, cleaning, and maintenance. Owners typically see 12-18% annual yields from short-term rental platforms like Airbnb.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Is Lombok safe and accessible?</div>
+<div class="faq-a">Absolutely. Lombok has direct international flights, modern infrastructure (especially around Mandalika), excellent healthcare facilities, and is consistently rated as one of the safest destinations in Southeast Asia.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">What if I want to visit my villa?</div>
+<div class="faq-a">It's your villa! Use it whenever you want. Many owners block out personal weeks and rent the rest of the year. Our management team ensures it's always ready for your arrival.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">What's the payment structure?</div>
+<div class="faq-a">We offer flexible payment plans tied to construction milestones. Typical structure: 30% deposit, 40% during construction, 30% on completion. Full details in the Investor Guide.</div>
+</div>
+<div class="faq-item">
+<div class="faq-q">Why only 15 villas?</div>
+<div class="faq-a">Exclusivity is core to our offering. A small, premium community ensures high property values, personalised service, and a genuine sense of privacy and luxury for every owner.</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+<div class="container">
+<h2>Don't Watch From the Sidelines</h2>
+<p>15 villas. Ground-floor pricing. Once they're gone, they're gone.</p>
+<div style="display:flex;gap:15px;justify-content:center;flex-wrap:wrap">
+<a href="#reserve" class="btn-primary">Reserve Your Villa →</a>
+<a href="https://calendly.com" class="btn-outline" target="_blank">Schedule a Call</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="footer-links">
+<a href="https://instagram.com/yaraestateslombok" target="_blank">📸 @yaraestateslombok</a>
+<a href="https://x.com/YaraEstates" target="_blank">🐦 @YaraEstates</a>
+<a href="mailto:bafagihomar260@gmail.com">✉️ Email Us</a>
+</div>
+<p class="footer-copy">© 2025 Yara Estates Lombok. All rights reserved. | Designed with 🤍 for dreamers and doers.</p>
+</footer>
+
+<script>
+// FAQ toggle
+document.querySelectorAll('.faq-q').forEach(q=>{
+q.addEventListener('click',()=>{
+q.parentElement.classList.toggle('open');
+});
+});
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+a.addEventListener('click',e=>{
+e.preventDefault();
+const t=document.querySelector(a.getAttribute('href'));
+if(t)t.scrollIntoView({behavior:'smooth',block:'start'});
+});
+});
+</script>
+
+</body>
+</html>
