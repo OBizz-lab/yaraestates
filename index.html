@@ -575,6 +575,7 @@ footer { background: var(--brown); padding: 50px 20px 30px; text-align: center; 
   .villa-split { grid-template-columns: 1fr; }
   .villa-gallery { grid-template-columns: 1fr 1fr; }
   .form-row { grid-template-columns: 1fr; }
+  .resource-cards { grid-template-columns: 1fr !important; }
   .form-wrapper { padding: 35px 25px; }
   .inv-highlight { padding: 35px 25px; }
   section { padding: 70px 20px; }
@@ -605,6 +606,7 @@ footer { background: var(--brown); padding: 50px 20px 30px; text-align: center; 
       <a href="#villas">The Villas</a>
       <a href="#pricing">Pricing</a>
       <a href="#numbers">Investment</a>
+      <a href="#guides">Guides</a>
       <a href="#faq">FAQ</a>
     </div>
     <a href="#reserve" class="nav-cta">Begin Your Journey →</a>
@@ -1186,26 +1188,53 @@ footer { background: var(--brown); padding: 50px 20px 30px; text-align: center; 
   </div>
 </section>
 
-<!-- ===== 10. RESOURCES ===== -->
-<section class="resources">
+<!-- ===== 10. RESOURCES & GUIDES ===== -->
+<section class="resources" id="guides">
   <div class="container">
     <div class="fade-in">
-      <span class="section-label">Resources</span>
+      <span class="section-label">Resources & Guides</span>
       <h2 class="section-title">Do Your Homework — We Made It Easy</h2>
+      <p class="section-sub mx-auto text-center" style="margin-bottom:40px;">Free guides, honest data, and everything you need to make a confident decision.</p>
     </div>
 
-    <div class="resource-cards">
+    <div class="resource-cards" style="display:grid; grid-template-columns:repeat(3,1fr); gap:25px; max-width:none;">
+      <!-- Blog articles -->
+      <div class="resource-card fade-in">
+        <div class="icon">🏠</div>
+        <h3>How to Buy a Villa in Lombok</h3>
+        <p>Complete 2026 guide for foreign buyers — PT PMA, costs, locations, legal process, and tips.</p>
+        <a href="buy-villa-lombok.html" class="btn-outline-dark">Read Guide →</a>
+      </div>
+      <div class="resource-card fade-in">
+        <div class="icon">⚖️</div>
+        <h3>Lombok vs Bali Investment</h3>
+        <p>Data-driven comparison — prices, yields, growth potential. Why smart money is moving east.</p>
+        <a href="lombok-vs-bali.html" class="btn-outline-dark">Read Comparison →</a>
+      </div>
+      <div class="resource-card fade-in">
+        <div class="icon">📊</div>
+        <h3>Lombok Rental Yields</h3>
+        <p>Honest analysis of Airbnb rates, occupancy, expenses, and net returns you can realistically expect.</p>
+        <a href="lombok-rental-yields.html" class="btn-outline-dark">See the Numbers →</a>
+      </div>
+      <div class="resource-card fade-in">
+        <div class="icon">🏛️</div>
+        <h3>Foreign Ownership in Indonesia</h3>
+        <p>Everything you need to know — Hak Pakai, PT PMA, nominee risks, taxes, and inheritance.</p>
+        <a href="foreign-ownership-indonesia.html" class="btn-outline-dark">Read Guide →</a>
+      </div>
+      <!-- Documents -->
       <div class="resource-card fade-in">
         <div class="icon">📖</div>
         <h3>Investor Brochure</h3>
         <p>The full story — vision, designs, location, financials, and the team behind Yara Estates.</p>
-        <a href="brochure.html" class="btn-outline-dark">Download Brochure →</a>
+        <a href="brochure.html" class="btn-outline-dark">View Brochure →</a>
       </div>
       <div class="resource-card fade-in">
-        <div class="icon">📊</div>
+        <div class="icon">📋</div>
         <h3>Fact Sheet</h3>
         <p>Quick-reference numbers — pricing, specs, projected returns, payment structure, and timeline.</p>
-        <a href="factsheet.html" class="btn-outline-dark">Download Fact Sheet →</a>
+        <a href="factsheet.html" class="btn-outline-dark">View Fact Sheet →</a>
       </div>
     </div>
   </div>
