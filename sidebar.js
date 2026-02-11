@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
         '<a href="lombok-vs-bali.html" class="sidebar-link"><span class="link-icon">⚖️</span><div><div class="link-title">Lombok vs Bali Investment</div><div class="link-desc">Data-driven comparison</div></div></a>' +
         '<a href="lombok-rental-yields.html" class="sidebar-link"><span class="link-icon">📊</span><div><div class="link-title">Lombok Rental Yields</div><div class="link-desc">Honest Airbnb income & ROI analysis</div></div></a>' +
         '<a href="foreign-ownership-indonesia.html" class="sidebar-link"><span class="link-icon">🏛️</span><div><div class="link-title">Foreign Ownership in Indonesia</div><div class="link-desc">PT PMA, Hak Pakai, taxes & inheritance</div></div></a>' +
+        '<a href="lombok-property-for-sale.html" class="sidebar-link"><span class="link-icon">🏘️</span><div><div class="link-title">Lombok Property for Sale</div><div class="link-desc">Villas, land & investment opportunities</div></div></a>' +
+        '<a href="luxury-villa-indonesia.html" class="sidebar-link"><span class="link-icon">✨</span><div><div class="link-title">Luxury Villas in Indonesia</div><div class="link-desc">Why Lombok is the smart choice</div></div></a>' +
+        '<a href="mandalika-property-investment.html" class="sidebar-link"><span class="link-icon">🏁</span><div><div class="link-title">Mandalika Investment Zone</div><div class="link-desc">Inside Lombok\'s $3B growth zone</div></div></a>' +
       '</div>' +
       '<div class="sidebar-section"><div class="sidebar-label">Investor Documents</div>' +
         '<a href="brochure.html" class="sidebar-link"><span class="link-icon">📖</span><div><div class="link-title">Investor Brochure</div><div class="link-desc">Vision, designs, location & financials</div></div></a>' +
