@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="32" fill="#C4956A"/>
+  <circle cx="32" cy="32" r="25" fill="#FDF6EC"/>
+  <circle cx="32" cy="32" r="27" fill="none" stroke="#D4A853" stroke-width="1"/>
+  <text x="32" y="36" text-anchor="middle" dominant-baseline="middle" font-family="serif" font-weight="bold" font-size="28" fill="#C4956A">YE</text>
+</svg>
