@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
     '<div class="blog-sidebar-overlay" id="blogOverlay"></div>' +
     '<div class="blog-sidebar" id="blogSidebar">' +
       '<div class="sidebar-header"><h3>📚 Guides & Resources</h3><button class="sidebar-close" id="blogClose">✕</button></div>' +
+      '<div class="sidebar-section"><div class="sidebar-label">The Villas</div>' +
+        '<a href="villa-1-bedroom.html" class="sidebar-link"><span class="link-icon">🦋</span><div><div class="link-title">Yara — 1-Bedroom ($199K)</div><div class="link-desc">Light, free, beautiful</div></div></a>' +
+        '<a href="villa-2-bedroom.html" class="sidebar-link"><span class="link-icon">🪨</span><div><div class="link-title">Marwa — 2-Bedroom ($299K) ★</div><div class="link-desc">Built to endure</div></div></a>' +
+        '<a href="villa-3-bedroom.html" class="sidebar-link"><span class="link-icon">💎</span><div><div class="link-title">Safa — 3-Bedroom ($449K)</div><div class="link-desc">Pure clarity</div></div></a>' +
+      '</div>' +
       '<div class="sidebar-section"><div class="sidebar-label">Free Guides</div>' +
         '<a href="buy-villa-lombok.html" class="sidebar-link"><span class="link-icon">🏠</span><div><div class="link-title">How to Buy a Villa in Lombok</div><div class="link-desc">Complete 2026 guide for foreign buyers</div></div></a>' +
         '<a href="lombok-vs-bali.html" class="sidebar-link"><span class="link-icon">⚖️</span><div><div class="link-title">Lombok vs Bali Investment</div><div class="link-desc">Data-driven comparison</div></div></a>' +
